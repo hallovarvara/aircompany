@@ -1,10 +1,10 @@
 {
   "name": "clean-code-js",
   "version": "0.0.1",
-  "description": "",
+  "description": "Wash the code with @hallovarvara",
   "main": "",
   "scripts": {
-    "test": "mocha",
+    "test": "nyc --reporter=text mocha",
     "start": "node index.js"
   },
   "author": {
@@ -16,7 +16,8 @@
     "npm": ">=3.10.8"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "mocha": "^6.2.0",
-    "chai": "^4.2.0"
+    "nyc": "^15.1.0"
   }
 }
